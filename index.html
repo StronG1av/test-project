@@ -1,0 +1,89 @@
+<!DOCTYPE html> 
+<html>
+  <style>
+    .a4-page {
+      width: 210mm;
+      height: 297mm;
+      margin: 0 auto;
+      page-break-after: always;
+      box-shadow: 0 0 20px rgba(248, 0, 0, 0.50);
+    }
+  </style>
+  <style>
+    .break-after {
+      page-break-after: always;
+    }
+  </style>
+<head>
+  <meta charset="UTF-8">
+  <title>Содержимое файла</title>
+</head>
+<div class="a4-page">
+<body>
+  Р</br>
+  У</br>
+  К</br>
+  <b>А</b> (жирным)</p>
+  <h1>Заголовок h1</h1>
+  <h2>Заголовок h2</h2>
+  ...
+  <h6>Заголовок h6</h6>
+  Первый абзац</p>
+  Второй абзац</p>
+  <strong>Жирное на чертание через strong</strong>
+  <br><b>Жирное на чертание через b</b>
+  <br>Жирное начертание слова - <strong>априори</strong>
+  <em>Очень красивое предложение курсивом</em>
+  <br><em><b>Не такое красивое предложение жирным курсивом</b></em>
+  <br>В этом предложении есть <strong>жирное</strong> и <em>курсивное</em> начертания текста, а еще <strong><em>жирно-курсивное</em></strong>. Извините, у меня тут нет <s>ошибки</s>
+  <br><strong>Внимание!<s>Не актуально</s></strong> 
+  <br>x<sup>2</sup> + x<sub>2</sub> = x<sup>2</sup>x<sub>2</sub></p>
+  
+  Сноска на источник<sup>[2]</sup>
+  <br><abbr title="HyperText Markup Language">HTML</abbr> – это разметка гипертекста.
+  <br><abbr title="Cascading Style Sheets">CSS</abbr> - это таблицы стилей.</p>
+  <ol>
+    <li>элемент номерованный списка</li>
+    <li>элемент номерованный списка</li>
+  </ol>
+  <ul>
+    <li>элемент маркированного списка</li>
+    <div class="break-after"><li>элемент маркированного списка</li></div>
+  </ul>
+  <a href="https://hspm.ru/">Сайт ВШПМ</a></br>
+  <a href="https://hspm.ru/o-nas/sotrudniki/petr-alekseyevich-pridanov-256">Другая страница</a></p>
+  <img src="https://hspm.ru/u/employee/9bfb575eeb7159d1fc8fd030e494c1f9.jpg" alt="Прекрасный человек"></p>
+  
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 20%;
+    }
+  
+    th, td {
+      border: 1px solid black;
+      padding: 2px;
+      text-align: left;
+    }
+  </style>
+  <table>
+    <thead>
+      <tr>
+        <th>Россия</th>
+        <th>Великобритания</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>34,5</td>
+        <td>3,5</td>
+      </tr>
+      <tr>
+        <td>34,5</td>
+        <td>3,5</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</div>
+</html>
